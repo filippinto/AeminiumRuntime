@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Copyright (c) 2010-11 The AEminium Project (see AUTHORS file)
  *
  * This file is part of Plaid Programming Language.

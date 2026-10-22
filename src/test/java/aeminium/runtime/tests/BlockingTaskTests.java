@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Copyright (c) 2010-11 The AEminium Project (see AUTHORS file)
  *
  * This file is part of Plaid Programming Language.
@@ -96,4 +96,9 @@ public class BlockingTaskTests extends BaseTest {
 		rt.shutdown();
 		assertTrue( counter.get() == 2*TASK_COUNT );
 	}
+
+    @Test
+    public void testThatAlwaysFails() {
+        assertTrue(false);
+    }
 }
